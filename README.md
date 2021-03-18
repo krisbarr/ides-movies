@@ -8,8 +8,8 @@ or the [Express API Template](https://git.generalassemb.ly/ga-wdi-boston/express
 
 ## Installation
 
-1. [Download](../../archive/master.zip) this template.
-1. Unzip and rename the template directory (`unzip ~/Downloads/react-auth-template-master.zip`).
+1. [Download](../../archive/main.zip) this template.
+1. Unzip and rename the template directory (`unzip ~/Downloads/react-auth-template-main.zip`).
 1. Move into the new project and `git init`.
 1. Empty [`README.md`](README.md) and fill with your own content.
 1. Replace `react-auth-template` in `package.json` with your
@@ -26,7 +26,7 @@ Before deploying, you first need to make sure the `homepage` key in your
 `package.json` is pointing to the correct value. It should be the url of your
 deployed application.
 
-To deploy you should first make sure you are on the `master` branch with a
+To deploy you should first make sure you are on the `main` branch with a
 clean working directory, then you can run `npm run deploy` and wait to see if
 it runs successfully.
 
@@ -198,7 +198,7 @@ Developers should run these often!
 - `npm run start`: generates bundles, watches, and livereloads.
 - `npm run build`: place bundled styles and scripts where `index.html` can find
     them
-- `npm run deploy`: builds and deploys master branch
+- `npm run deploy`: builds and deploys main branch
 
 ## [License](LICENSE)
 
